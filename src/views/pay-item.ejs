@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <%- include('shared/head') -%>
+  <body>
+    <%- include('shared/nav') -%>
+    <div class='core-content'>
+      <%- include('shared/header') -%>
+      <div class='body-wrapper'>
+        <div class='body-content'>
+          <p><strong>Pay Items:</strong></p>
+        <pre>
+            <code class='language-javascript'><%- JSON.stringify(payItems, null, 2) %></code>
+          </pre>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

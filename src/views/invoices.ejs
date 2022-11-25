@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <%- include('shared/head') -%>
+  <body>
+    <%- include('shared/nav') -%>
+    <div class='core-content'>
+      <%- include('shared/header') -%>
+      <div class='body-wrapper'>
+        <div class='body-content'>
+          <a href='https://developer.xero.com/documentation/api/invoices' target='_blank'>
+            <h4>Invoices</h4>
+          </a>
+
+          <% if ((typeof(createdInvoice) !== 'undefined' && createdInvoice && typeof(createdInvoice) !== 'undefined')) { %>
+            <p>Created Invoice Number: $<%= createdInvoice.reference %></p>
+            <p>Created Invoice: <%- JSON.stringify(createdInvoice, null, 2).replace(/[{}]/g, '') %></p>
+            <p>Updated Invoice: $<%= updatedInvoice.reference %></p>
+            <p>Get Invoice: <%= invoiceId %></p>
+            <p>Total Invoices: <%= count %></p>
+
+            <h3 style='color:red;'>WARNING!</h3>
+            <strong>Email will actually go out to: <%= email %></strong>
+            <% url = "/email-invoice?invoiceID=" + createdInvoice.invoiceID %>
+            <h4>Email invoice:</h4>
+            <a href=<%= url %>>
+              <strong><%= createdInvoice.invoiceID %></strong>
+            </a>
+          <% } else { %>
+            <strong>Email sent!</strong>
+          <% } %>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

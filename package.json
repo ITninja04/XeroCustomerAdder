@@ -1,0 +1,45 @@
+{
+  "name": "xero-customer-creator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "axios-rate-limit": "^1.3.0",
+    "body-parser": "^1.20.1",
+    "chalk": "^5.1.2",
+    "commander": "^9.4.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.1.0",
+    "helper": "^0.0.13",
+    "jwt-decode": "^3.1.2",
+    "module-alias": "^2.2.2",
+    "openid-client": "^5.3.0",
+    "path": "^0.12.7",
+    "session-file-store": "^1.5.0",
+    "xero-node": "^4.29.0"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.3.18",
+    "@swc/helpers": "^0.4.13",
+    "@types/ejs": "^3.1.1",
+    "@types/express": "^4.17.14",
+    "@types/express-session": "^1.17.5",
+    "@types/figlet": "^1.5.5",
+    "@types/jwt-decode": "^3.1.0",
+    "@types/node": "^18.11.9",
+    "@types/qs": "^6.9.7",
+    "regenerator-runtime": "^0.13.10",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  },
+  "scripts": {
+    "start": "node -r ts-node/register --no-warnings src/index.ts",
+    "build": "tsc"
+  }
+}

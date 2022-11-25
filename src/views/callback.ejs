@@ -1,0 +1,57 @@
+<!doctype html>
+<script>
+  setTimeout(() => {
+    if(window.confirm("WARNING! This sample application will Create, Read, Update & Delete REAL objects in your Xero Database. Please only use a Demo company or test organisation.")) {
+      console.log('welcome to the tutorial :)')
+    } else {
+      window.location.assign('/disconnect')
+    }
+  }, 500)
+</script>
+<html>
+  <%- include('shared/head') -%>
+  <body>
+    <%- include('shared/nav') -%>
+    <div class='core-content'>
+      <%- include('shared/header') -%>
+      <div class='body-wrapper'>
+        <div class='body-content'>
+          <% if (authenticated.decodedIdToken && authenticated.decodedAccessToken) { %>
+            <h4 id='authenticated'>You are authenticated with: <span><%= authenticated.activeTenant.tenantName %></span></h4>
+            <hr>
+            <h5>Token Expires: <span style='font-weight:normal;'><%= authenticated.accessTokenExpires %></span></h5>
+            <h4>Active Tenant:</h2>
+            <pre>
+              <code class='language-javascript'>
+                <% if (authenticated.activeTenant.orgData) { %>}
+                  <%- JSON.stringify(authenticated.activeTenant.orgData, null, 2).replace(/[{}]/g, '').substring(0, 300) + ' ...' %>
+                <%} else { %>
+                  <%- JSON.stringify(authenticated.activeTenant, null, 2).replace(/[{}]/g, '').substring(0, 300) + ' ...' %>
+                <% } %>
+              </code>
+            </pre>
+            <hr>
+            <h4>Access Token Data:</h2>
+              <pre>
+              <code class='language-javascript'>
+                <%- JSON.stringify(authenticated.decodedAccessToken, null, 2).replace(/[{}]/g, '') %>
+              </code>
+            </pre>
+            <hr>
+            <h4>Id Token Data:</h2>
+            <pre>
+              <code class='language-javascript'>
+                <%- JSON.stringify(authenticated.decodedIdToken, null, 2).replace(/[{}]/g, '') %>
+              </code>
+            </pre>
+          <%} else { %>
+            <p>This tutorial will show developers how to utilise our API endpoints with the "xero-node" SDK version in package.json</p>
+            <h3 style='color:red;'>WARNING!</h3>
+            <p>This tutorial will Create, Read, Update & Delete REAL objects in the authenticated Xero organisation.</p>
+            <p>Please only authenticate with a <a href='https://developer.xero.com/documentation/getting-started/development-accounts' target='_blank'>Demo Company</a> or a non-production organisation.</p>
+          <% } %>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
