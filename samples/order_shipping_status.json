@@ -1,0 +1,24 @@
+{
+    "OrderTrackingResponse": {
+        "Version": "2.0",
+        "TransactionHeader": {
+            "SenderID": "98763",
+            "ReceiverID": "12345",
+            "ErrorStatus": {
+                "ErrorNumber": ""
+            },
+            "DocumentID": "{895A4D41-6D19-11ED-A13E-E6140A0C425D}",
+            "TransactionID": "f2a0497f-9169-4c08-add3-0354628b9364",
+            "TimeStamp": "2022-11-25T15:33:16"
+        },
+        "CustomerPO": "1120221337",
+        "Order": {
+            "BranchOrderNumber": "2180475",
+            "TotalWeight": "0.00",
+            "CartonCount": "0",
+            "Suffix": {
+                "SuffixNumber": "11"
+            }
+        }
+    }
+}

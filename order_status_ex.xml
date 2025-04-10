@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<OrderDetailResponse>
+    <Version>2.0</Version>
+    <TransactionHeader>
+        <SenderID>98763</SenderID>
+        <ReceiverID>12345</ReceiverID>
+        <ErrorStatus ErrorNumber=""></ErrorStatus>
+        <DocumentID>{356F97C0-6D15-11ED-A054-00A40A0C4277}</DocumentID>
+        <TransactionID>b6df8706-e882-48d8-88ff-43a8b107bf81</TransactionID>
+        <TimeStamp>2022-11-25T15:02:17</TimeStamp>
+    </TransactionHeader>
+    <OrderInformation>
+        <BranchOrderNumber>2180475</BranchOrderNumber>
+        <CustomerPO>1120221337</CustomerPO>
+        <EndUserPO>N/A</EndUserPO>
+        <OrderWeight>0</OrderWeight>
+        <OrderEntryDate>2022-11-21</OrderEntryDate>
+        <OrderType>D</OrderType>
+        <FulFillmentFlag>Y</FulFillmentFlag>
+        <ShipComplete></ShipComplete>
+        <HoldReason></HoldReason>
+        <TermsCode>998</TermsCode>
+        <ResellerNBR></ResellerNBR>
+        <NumberOfCartons>0</NumberOfCartons>
+        <CreditMemoReasonCode></CreditMemoReasonCode>
+        <ConfigFlag></ConfigFlag>
+        <SplitBillToSwitch>N</SplitBillToSwitch>
+        <SplitFromOrderNumber></SplitFromOrderNumber>
+        <RMACode></RMACode>
+        <CreditCardSW></CreditCardSW>
+        <GovEndUserType></GovEndUserType>
+        <EntryMethod>I</EntryMethod>
+        <TermID>G360</TermID>
+        <BackorderStatus></BackorderStatus>
+        <ShippableSW></ShippableSW>
+        <ConfigTimeStamp></ConfigTimeStamp>
+        <SelSrcSlsHdr>MNCG</SelSrcSlsHdr>
+        <SelSrcAcctNoHdr></SelSrcAcctNoHdr>
+        <OECarrier>RG</OECarrier>
+        <FrtOutCode>B</FrtOutCode>
+        <ProNbrSW></ProNbrSW>
+        <ProNbr></ProNbr>
+        <OrderTotals>
+            <SalesTotal>1576.90</SalesTotal>
+            <FreightTotal>18.48</FreightTotal>
+            <TaxTotal>0.00</TaxTotal>
+            <SalePlusTax>0.00</SalePlusTax>
+            <GrandTotal>1595.38</GrandTotal>
+            <CODAmount>0.00</CODAmount>
+            <DiscountAmount>0.00</DiscountAmount>
+            <CurrencyCode>USD</CurrencyCode>
+            <CompanyCurrency>USD</CompanyCurrency>
+            <CurrencyRate>1.00</CurrencyRate>
+        </OrderTotals>
+        <OrderSuffix ID="11">
+            <ShipToInformation>
+                <ShipToAttention>KARL WIGHAMAN</ShipToAttention>
+                <ShipToAddress1>A.B. CONTROLS &amp; TECHNOLOGY INC</ShipToAddress1>
+                <ShipToAddress2>23125 MADEIRA CT</ShipToAddress2>
+                <ShipToAddress3></ShipToAddress3>
+                <ShipToCity>PORTER</ShipToCity>
+                <ShipToProvince>TX</ShipToProvince>
+                <ShipToPostalCode>773654226</ShipToPostalCode>
+                <ShipToCountryCode></ShipToCountryCode>
+                <ShipToSuffix></ShipToSuffix>
+            </ShipToInformation>
+            <BillToInformation>
+                <BillToAddress1>ALTIVIEW</BillToAddress1>
+                <BillToAddress2>901 MCCLAIN RD STE 5</BillToAddress2>
+                <BillToAddress3></BillToAddress3>
+                <BillToCity>BENTONVILLE</BillToCity>
+                <BillToProvince>AR</BillToProvince>
+                <BillToPostalCode>727129421</BillToPostalCode>
+                <BillToCountryCode></BillToCountryCode>
+                <BillToSuffix>000</BillToSuffix>
+            </BillToInformation>
+            <ShipFromBranch Number="20">Carrolton, Texas</ShipFromBranch>
+            <OrderStatus>Billed</OrderStatus>
+            <Carrier Code="OT">Other</Carrier>
+            <InvoiceDate>2022-11-23</InvoiceDate>
+            <PromiseDate>2022-11-22</PromiseDate>
+            <OrderShipDate>2022-11-23</OrderShipDate>
+            <OrderLineDetail>
+                <CommentLine>
+                    <Comment>HEADER A:07845227 D:PP-03627167-01 P:OZZIE BOCK T:OZZIE@ALTIVIEWTECH.COM</Comment>
+                </CommentLine>
+                <CommentLine>
+                    <Comment>*********************************** OZZIE@ALTIVIEWTECH.COM ***********************************</Comment>
+                </CommentLine>
+                <ProductLine>
+                    <SKU>9AF266</SKU>
+                    <ManufacturerPartNumber>XA1CTCHUS</ManufacturerPartNumber>
+                    <SKUDescription>XGS 126 SECURITY APPL US POWER PWR CORD EU#-005585977 A.B.. CONTROLS &amp; TECH MC#C VIA:  54</SKUDescription>
+                    <OrderQuantity>1</OrderQuantity>
+                    <ShipQuantity>1</ShipQuantity>
+                    <BackOrderQuantity>0</BackOrderQuantity>
+                    <ComponentQty>0</ComponentQty>
+                    <BackOrderETADate></BackOrderETADate>
+                    <NordicPromiseDate>2022-11-21</NordicPromiseDate>
+                    <UnitPrice>10.75</UnitPrice>
+                    <UnitOfMeasure>EA</UnitOfMeasure>
+                    <ResellerUnitPrice>0.00</ResellerUnitPrice>
+                    <ExtendedLineSales>10.75</ExtendedLineSales>
+                    <LineSalesTotal>10.75</LineSalesTotal>
+                    <LineTerms>000</LineTerms>
+                    <CustomerLineNumber>000</CustomerLineNumber>
+                    <CustomerItemNumber>N/A</CustomerItemNumber>
+                    <IngramLineNumber>005</IngramLineNumber>
+                    <ReserveSequenceNbr>N/A</ReserveSequenceNbr>
+                    <VendorNumber>778U</VendorNumber>
+                    <VendorName>SOPHOS SMB UTM XA1CTCHUS</VendorName>
+                    <SelSrcSls>N/A</SelSrcSls>
+                    <SelSrcAcctno>N/A</SelSrcAcctno>
+                    <FreeItemSwitch>N</FreeItemSwitch>
+                    <SystemComponentSwitch>N</SystemComponentSwitch>
+                    <ConfigInformation>
+                        <ConfigIndicator>N/A</ConfigIndicator>
+                        <ConfigStatus>N/A</ConfigStatus>
+                        <ConfigAssemblyCode>N/A</ConfigAssemblyCode>
+                        <ConfigLabCode>N/A</ConfigLabCode>
+                        <ConfigOnHoldSw>N/A</ConfigOnHoldSw>
+                        <ConfigPcrCnt>+00000</ConfigPcrCnt>
+                        <ConfigPchCnt>+00000</ConfigPchCnt>
+                        <ConfigStgCnt>+00000</ConfigStgCnt>
+                        <ConfigSthCnt>+00000</ConfigSthCnt>
+                        <ConfigWipCnt>+00000</ConfigWipCnt>
+                        <ConfigQaaCnt>+00000</ConfigQaaCnt>
+                        <ConfigQahCnt>+00000</ConfigQahCnt>
+                        <ConfigBinCnt>+00000</ConfigBinCnt>
+                        <ConfigOshCnt>+00000</ConfigOshCnt>
+                        <ConfigHoldReasonText>N/A</ConfigHoldReasonText>
+                    </ConfigInformation>
+                    <SkuSerialNumber>
+                        <SerialNumber></SerialNumber>
+                    </SkuSerialNumber>
+                </ProductLine>
+                <ProductLine>
+                    <SKU>9AF288</SKU>
+                    <ManufacturerPartNumber>XF1S3CSES</ManufacturerPartNumber>
+                    <SKUDescription>36MO XGS 126 XSTREAM PROTECTIONLICS BUNDLE EU#-005585977 A.B.. CONTROLS &amp; TECH MC#C</SKUDescription>
+                    <OrderQuantity>1</OrderQuantity>
+                    <ShipQuantity>1</ShipQuantity>
+                    <BackOrderQuantity>0</BackOrderQuantity>
+                    <ComponentQty>0</ComponentQty>
+                    <BackOrderETADate></BackOrderETADate>
+                    <NordicPromiseDate>2022-11-21</NordicPromiseDate>
+                    <UnitPrice>1566.15</UnitPrice>
+                    <UnitOfMeasure>EA</UnitOfMeasure>
+                    <ResellerUnitPrice>0.00</ResellerUnitPrice>
+                    <ExtendedLineSales>1566.15</ExtendedLineSales>
+                    <LineSalesTotal>1566.15</LineSalesTotal>
+                    <LineTerms>000</LineTerms>
+                    <CustomerLineNumber>000</CustomerLineNumber>
+                    <CustomerItemNumber>N/A</CustomerItemNumber>
+                    <IngramLineNumber>006</IngramLineNumber>
+                    <ReserveSequenceNbr>N/A</ReserveSequenceNbr>
+                    <VendorNumber>778U</VendorNumber>
+                    <VendorName>SOPHOS SMB UTM XF1S3CSES</VendorName>
+                    <SelSrcSls>N/A</SelSrcSls>
+                    <SelSrcAcctno>N/A</SelSrcAcctno>
+                    <FreeItemSwitch>N</FreeItemSwitch>
+                    <SystemComponentSwitch>N</SystemComponentSwitch>
+                    <ConfigInformation>
+                        <ConfigIndicator>N/A</ConfigIndicator>
+                        <ConfigStatus>N/A</ConfigStatus>
+                        <ConfigAssemblyCode>N/A</ConfigAssemblyCode>
+                        <ConfigLabCode>N/A</ConfigLabCode>
+                        <ConfigOnHoldSw>N/A</ConfigOnHoldSw>
+                        <ConfigPcrCnt>+00000</ConfigPcrCnt>
+                        <ConfigPchCnt>+00000</ConfigPchCnt>
+                        <ConfigStgCnt>+00000</ConfigStgCnt>
+                        <ConfigSthCnt>+00000</ConfigSthCnt>
+                        <ConfigWipCnt>+00000</ConfigWipCnt>
+                        <ConfigQaaCnt>+00000</ConfigQaaCnt>
+                        <ConfigQahCnt>+00000</ConfigQahCnt>
+                        <ConfigBinCnt>+00000</ConfigBinCnt>
+                        <ConfigOshCnt>+00000</ConfigOshCnt>
+                        <ConfigHoldReasonText>N/A</ConfigHoldReasonText>
+                    </ConfigInformation>
+                    <SkuSerialNumber>
+                        <SerialNumber></SerialNumber>
+                    </SkuSerialNumber>
+                </ProductLine>
+            </OrderLineDetail>
+        </OrderSuffix>
+    </OrderInformation>
+</OrderDetailResponse>

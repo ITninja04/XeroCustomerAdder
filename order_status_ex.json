@@ -1,0 +1,201 @@
+{
+  "OrderDetailResponse": {
+    "Version": "2.0",
+    "TransactionHeader": {
+      "SenderID": "98763",
+      "ReceiverID": "12345",
+      "ErrorStatus": {
+        "ErrorNumber": ""
+      },
+      "DocumentID": "{356F97C0-6D15-11ED-A054-00A40A0C4277}",
+      "TransactionID": "b6df8706-e882-48d8-88ff-43a8b107bf81",
+      "TimeStamp": "2022-11-25T15:02:17"
+    },
+    "OrderInformation": {
+      "BranchOrderNumber": "2180475",
+      "CustomerPO": "1120221337",
+      "EndUserPO": "N/A",
+      "OrderWeight": "0",
+      "OrderEntryDate": "2022-11-21",
+      "OrderType": "D",
+      "FulFillmentFlag": "Y",
+      "ShipComplete": {},
+      "HoldReason": {},
+      "TermsCode": "998",
+      "ResellerNBR": {},
+      "NumberOfCartons": "0",
+      "CreditMemoReasonCode": {},
+      "ConfigFlag": {},
+      "SplitBillToSwitch": "N",
+      "SplitFromOrderNumber": {},
+      "RMACode": {},
+      "CreditCardSW": {},
+      "GovEndUserType": {},
+      "EntryMethod": "I",
+      "TermID": "G360",
+      "BackorderStatus": {},
+      "ShippableSW": {},
+      "ConfigTimeStamp": {},
+      "SelSrcSlsHdr": "MNCG",
+      "SelSrcAcctNoHdr": {},
+      "OECarrier": "RG",
+      "FrtOutCode": "B",
+      "ProNbrSW": {},
+      "ProNbr": {},
+      "OrderTotals": {
+        "SalesTotal": "1576.90",
+        "FreightTotal": "18.48",
+        "TaxTotal": "0.00",
+        "SalePlusTax": "0.00",
+        "GrandTotal": "1595.38",
+        "CODAmount": "0.00",
+        "DiscountAmount": "0.00",
+        "CurrencyCode": "USD",
+        "CompanyCurrency": "USD",
+        "CurrencyRate": "1.00"
+      },
+      "OrderSuffix": {
+        "ID": "11",
+        "ShipToInformation": {
+          "ShipToAttention": "KARL WIGHAMAN",
+          "ShipToAddress1": "A.B. CONTROLS & TECHNOLOGY INC",
+          "ShipToAddress2": "23125 MADEIRA CT",
+          "ShipToAddress3": {},
+          "ShipToCity": "PORTER",
+          "ShipToProvince": "TX",
+          "ShipToPostalCode": "773654226",
+          "ShipToCountryCode": {},
+          "ShipToSuffix": {}
+        },
+        "BillToInformation": {
+          "BillToAddress1": "ALTIVIEW",
+          "BillToAddress2": "901 MCCLAIN RD STE 5",
+          "BillToAddress3": {},
+          "BillToCity": "BENTONVILLE",
+          "BillToProvince": "AR",
+          "BillToPostalCode": "727129421",
+          "BillToCountryCode": {},
+          "BillToSuffix": "000"
+        },
+        "ShipFromBranch": {
+          "Number": "20",
+          "$t": "Carrolton, Texas"
+        },
+        "OrderStatus": "Billed",
+        "Carrier": {
+          "Code": "OT",
+          "$t": "Other"
+        },
+        "InvoiceDate": "2022-11-23",
+        "PromiseDate": "2022-11-22",
+        "OrderShipDate": "2022-11-23",
+        "OrderLineDetail": {
+          "CommentLine": [
+            {
+              "Comment": "HEADER A:07845227 D:PP-03627167-01 P:OZZIE BOCK T:OZZIE@ALTIVIEWTECH.COM"
+            },
+            {
+              "Comment": "*********************************** OZZIE@ALTIVIEWTECH.COM ***********************************"
+            }
+          ],
+          "ProductLine": [
+            {
+              "SKU": "9AF266",
+              "ManufacturerPartNumber": "XA1CTCHUS",
+              "SKUDescription": "XGS 126 SECURITY APPL US POWER PWR CORD EU#-005585977 A.B.. CONTROLS & TECH MC#C VIA:  54",
+              "OrderQuantity": "1",
+              "ShipQuantity": "1",
+              "BackOrderQuantity": "0",
+              "ComponentQty": "0",
+              "BackOrderETADate": {},
+              "NordicPromiseDate": "2022-11-21",
+              "UnitPrice": "10.75",
+              "UnitOfMeasure": "EA",
+              "ResellerUnitPrice": "0.00",
+              "ExtendedLineSales": "10.75",
+              "LineSalesTotal": "10.75",
+              "LineTerms": "000",
+              "CustomerLineNumber": "000",
+              "CustomerItemNumber": "N/A",
+              "IngramLineNumber": "005",
+              "ReserveSequenceNbr": "N/A",
+              "VendorNumber": "778U",
+              "VendorName": "SOPHOS SMB UTM XA1CTCHUS",
+              "SelSrcSls": "N/A",
+              "SelSrcAcctno": "N/A",
+              "FreeItemSwitch": "N",
+              "SystemComponentSwitch": "N",
+              "ConfigInformation": {
+                "ConfigIndicator": "N/A",
+                "ConfigStatus": "N/A",
+                "ConfigAssemblyCode": "N/A",
+                "ConfigLabCode": "N/A",
+                "ConfigOnHoldSw": "N/A",
+                "ConfigPcrCnt": "+00000",
+                "ConfigPchCnt": "+00000",
+                "ConfigStgCnt": "+00000",
+                "ConfigSthCnt": "+00000",
+                "ConfigWipCnt": "+00000",
+                "ConfigQaaCnt": "+00000",
+                "ConfigQahCnt": "+00000",
+                "ConfigBinCnt": "+00000",
+                "ConfigOshCnt": "+00000",
+                "ConfigHoldReasonText": "N/A"
+              },
+              "SkuSerialNumber": {
+                "SerialNumber": {}
+              }
+            },
+            {
+              "SKU": "9AF288",
+              "ManufacturerPartNumber": "XF1S3CSES",
+              "SKUDescription": "36MO XGS 126 XSTREAM PROTECTIONLICS BUNDLE EU#-005585977 A.B.. CONTROLS & TECH MC#C",
+              "OrderQuantity": "1",
+              "ShipQuantity": "1",
+              "BackOrderQuantity": "0",
+              "ComponentQty": "0",
+              "BackOrderETADate": {},
+              "NordicPromiseDate": "2022-11-21",
+              "UnitPrice": "1566.15",
+              "UnitOfMeasure": "EA",
+              "ResellerUnitPrice": "0.00",
+              "ExtendedLineSales": "1566.15",
+              "LineSalesTotal": "1566.15",
+              "LineTerms": "000",
+              "CustomerLineNumber": "000",
+              "CustomerItemNumber": "N/A",
+              "IngramLineNumber": "006",
+              "ReserveSequenceNbr": "N/A",
+              "VendorNumber": "778U",
+              "VendorName": "SOPHOS SMB UTM XF1S3CSES",
+              "SelSrcSls": "N/A",
+              "SelSrcAcctno": "N/A",
+              "FreeItemSwitch": "N",
+              "SystemComponentSwitch": "N",
+              "ConfigInformation": {
+                "ConfigIndicator": "N/A",
+                "ConfigStatus": "N/A",
+                "ConfigAssemblyCode": "N/A",
+                "ConfigLabCode": "N/A",
+                "ConfigOnHoldSw": "N/A",
+                "ConfigPcrCnt": "+00000",
+                "ConfigPchCnt": "+00000",
+                "ConfigStgCnt": "+00000",
+                "ConfigSthCnt": "+00000",
+                "ConfigWipCnt": "+00000",
+                "ConfigQaaCnt": "+00000",
+                "ConfigQahCnt": "+00000",
+                "ConfigBinCnt": "+00000",
+                "ConfigOshCnt": "+00000",
+                "ConfigHoldReasonText": "N/A"
+              },
+              "SkuSerialNumber": {
+                "SerialNumber": {}
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

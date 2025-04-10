@@ -1,0 +1,48 @@
+{
+    "PNAResponse": {
+        "Version": "2.0",
+        "TransactionHeader": {
+            "SenderID": "98763",
+            "ReceiverID": "12345",
+            "ErrorStatus": {
+                "ErrorNumber": ""
+            },
+            "DocumentID": "{441e60a0-6d31-11ed-8912-26e80a0c4276}",
+            "TransactionID": "1340",
+            "TimeStamp": "2022-11-25T18:23:08"
+        },
+        "PriceAndAvailability": {
+            "Quantity": "1",
+            "ManufacturerPartNumber": [
+                "A320TCHNF",
+                "A320TCHNF"
+            ],
+            "SKU": "3DM825",
+            "Price": "391.30",
+            "SpecialPriceFlag": {},
+            "ManufacturerPartNumberOccurs": {},
+            "VendorNumber": "Y549",
+            "Description": "APX 320 PLENUM-RATED POI",
+            "ReserveInventoryFlag": "N",
+            "AvailableRebQty": "0",
+            "Branch": [
+                {
+                    "Name": "Mira Loma, California",
+                    "ID": "10",
+                    "Availability": "0",
+                    "OnOrder": "0",
+                    "ETADate": "2022-11-30"
+                },
+                {
+                    "Name": "Carol Stream, Illinois",
+                    "ID": "40",
+                    "Availability": "2",
+                    "OnOrder": "0",
+                    "ETADate": {}
+                }
+            ],
+            "UPC": "5054074000157",
+            "CustomerPartNumber": {}
+        }
+    }
+}
